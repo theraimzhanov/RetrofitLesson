@@ -1,5 +1,5 @@
 
-package com.raimzhanov.datafrominternet;
+package com.raimzhanov.datafrominternet.model;
 
 
 import com.google.gson.annotations.Expose;

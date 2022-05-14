@@ -1,6 +1,5 @@
-package com.raimzhanov.datafrominternet;
+package com.raimzhanov.datafrominternet.ui.adapter;
 
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +8,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
+import com.raimzhanov.datafrominternet.model.Post;
+import com.raimzhanov.datafrominternet.helper.PostClick;
+import com.raimzhanov.datafrominternet.R;
+
 import java.util.List;
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder> {
